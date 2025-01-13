@@ -1,6 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-import { Article, ArticleListProps } from "../types";
+import { ArticleListProps } from "../types";
 import ArticleDetail from "./articleDetail";
 
 

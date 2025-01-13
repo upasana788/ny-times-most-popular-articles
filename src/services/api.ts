@@ -2,7 +2,8 @@ import axios from "axios";
 
 const API_URL = "https://api.nytimes.com/svc/mostpopular/v2/viewed/";
 
-const API_KEY = "SqCeoEgbEyqi5Jxk0tYYfxg0MZ9W1CS5";
+const API_KEY=process.env.REACT_APP_NY_TIMES_POPULAR_ARTICLES_API_KEY;
+
 
 export const fetchArticles = async (period: number) => {
   try {

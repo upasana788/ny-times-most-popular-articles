@@ -1,5 +1,5 @@
 import React from "react";
-import { Article, ArticleDetailProps } from "../types";
+import { ArticleDetailProps } from "../types";
 
 const ArticleDetail: React.FC<ArticleDetailProps> = ({ article }) => {
   const imageUrl = article.media?.[0]?.["media-metadata"]?.[2]?.url;
